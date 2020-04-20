@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+.hidden-thing {
+    position: absolute;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+.navbar{
+    font-family: 'Muli', sans-serif;;
+}
+
+
+
+.nav_colour{
+    background-color: #ff6347;
+}
+
+.nav_colour a{
+    color: azure;
+}
+
+.main_header{
+    font-family: 'Adamina', serif;
+    height: 600px;
+    width: 100%;
+    background-color: honeydew;
+}
+
+
+
+
+
+.leftside img{
+    animation: heartbeat 5s linear infinite; 
+}
+
+@keyframes heartbeat
+{
+    0%
+    { transform: scale(.60); }
+
+    20%
+    { transform: scale(.80); }
+
+    40%
+    { transform: scale(.60); }
+
+    60%
+    { transform: scale(.80); }
+
+    80%
+    { transform: scale(.60); }
+
+    100%
+    { transform: scale(.60); }
+    
+
+
+}
+
+.corona_updates{
+    margin: 0 0 30px 0;
+}
+
+
+h1{
+    color: forestgreen;
+}
+
+.clor h3{
+    color: red;
+}
+
+.corona_updates h1{
+    font-size: 2rem ; text-align: center;
+    
+}
+
+.sub_section{
+    background-color: #fbfafd;
+}
+
+.footer_style{
+    background-color: indianred;
+}
+
+.footer_style p{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    cursor: pointer;
+    z-index: 9999999; }
+    @media (max-width: 768px) {
+      #back-top {
+        right: 5px; } }
+    #back-top a {
+      background: url(../images/IMAGE12.jpg) no-repeat;
+      background-size: 95% 80%;
+      width: 70px;
+      height: 80px;
+      display: block; }
+      @media (max-width: 768px) {
+        #back-top a {
+          width: 35px;
+          height: 74px; } }
+
+ .img123 {
+     position: absolute;
+     bottom: -22px;
+     left: 50%;
+     -webkit-transform: translate(-50%);
+     -moz-transform: translate(-50%);
+     -ms-transform: translate(-50%);
+     -o-transform: translate(-50%);
+      transform: translate(-50%); }
+.img123.go-top {
+      -webkit-transition: all 2.5s ease-in;
+      -moz-transition: all 2.5s ease-in;
+      -o-transition: all 2.5s ease-in;
+       transition: all 2.5s ease-in;
+      bottom: 100%; }
+.img123 .go-bottom {
+      bottom: -22px; }
