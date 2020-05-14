@@ -256,7 +256,7 @@
       <!-- ***************************************** FOOTER **************************************-->
       <footer class="mt-5">
         <div class="footer_style text-white text-center container">
-          <p>Copyright by Softcopy.online</p>
+          <p>Made With ❤ By Lakshay Yadav </p>
         </div>
       </footer>
 
