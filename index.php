@@ -256,7 +256,7 @@
       <!-- ***************************************** FOOTER **************************************-->
       <footer class="mt-5">
         <div class="footer_style text-white text-center container">
-          <p>Made With ❤ By Lakshay Yadav </p>
+          <p>Made With ❤ By Lakshay Yadav</p>
         </div>
       </footer>
 
@@ -264,22 +264,6 @@
 	<div id="back-top">
 		<a title="Go to Top" href="#"></a>
   </div>
-  <!-- <script>
-    
-    function fetch(){
-    
-    $.get("https://corona-virus-world-and-india-data.p.rapidapi.com/api",
-    
-    function (data){
-        console.log(data['state_wise'].length)
-    }
- )
-}
-  </script> -->
-  
-
-
-
   <script src="js/main.js"></script>
   
      </body> 
